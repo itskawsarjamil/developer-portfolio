@@ -68,10 +68,10 @@ h2{
     background-position: left;
 }
 .full-box{
-    border-left: 7px solid blue;
+    border-left: 7px solid tomato;
 }
 .baby-box{
-    border-left: 7px solid red;
+    border-left: 7px solid blue;
 }
 footer p{
     text-align: center;
