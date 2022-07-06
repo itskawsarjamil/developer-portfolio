@@ -6,12 +6,14 @@ body {
 h1 {
     font-size: 50px;
 }
-
+h2{
+    font-size: 40px;
+}
 .color-orange {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -34,7 +36,7 @@ section {
     border-radius: 5px;
 }
 
-#top-banner {
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -49,4 +51,28 @@ section {
 
 .padding {
     padding-right: 10;
+}
+
+.box{
+    box-shadow: 10px 10px 20px grey;
+    margin-left: 5%;
+    width: 42.5%;
+    margin-right: 2.5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.full-box{
+    border-left: 7px solid blue;
+}
+.baby-box{
+    border-left: 7px solid red;
+}
+footer p{
+    text-align: center;
 }
